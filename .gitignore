@@ -1,0 +1,27 @@
+# Файлы, создаваемые операционной системой
+.DS_Store
+Thumbs.db
+
+# IDE и редакторы
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Локальное окружение и секреты
+.env
+.env.*
+!.env.example
+
+# Артефакты сборки и тестирования Go
+bin/
+dist/
+coverage/
+coverage.out
+*.test
+*.prof
+
+# Правила и служебные файлы агента
+agents/
+AGENTS.md
